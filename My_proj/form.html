@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма з кнопкою</title>
+</head>
+<body>
+
+    <h2>Форма з кнопкою</h2>
+
+    <form>
+        <label for="name">Ім'я:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <input type="button" value="Перейти на сайт" onclick="goToWebsite()">
+    </form>
+
+    <script>
+        function goToWebsite() {
+            window.location.href = "https://example.com";
+        }
+    </script>
+
+</body>
+</html>
